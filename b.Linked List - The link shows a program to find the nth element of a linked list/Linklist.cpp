@@ -7,7 +7,7 @@ struct Node {
     struct Node* next;
 };
 
-/* Function to get the kth node from the last of a linked list */
+
 void printPathToKthFromLast(struct Node* head, int k) {
     struct Node* mainptr = head;
     struct Node* refptr = head;
